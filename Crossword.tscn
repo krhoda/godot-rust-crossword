@@ -1,0 +1,587 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://Crossword.gdns" type="Script" id=1]
+[ext_resource path="res://PuzzleTile.tscn" type="PackedScene" id=2]
+
+[node name="Crossword" type="Node2D"]
+script = ExtResource( 1 )
+
+[node name="Row_0" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_0" instance=ExtResource( 2 )]
+
+[node name="PuzzleTile_1" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_right = 200.0
+
+[node name="PuzzleTile_2" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_right = 300.0
+
+[node name="PuzzleTile_3" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_right = 400.0
+
+[node name="PuzzleTile_4" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_right = 500.0
+
+[node name="PuzzleTile_5" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_right = 600.0
+
+[node name="PuzzleTile_6" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_right = 700.0
+
+[node name="PuzzleTile_7" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_right = 800.0
+
+[node name="PuzzleTile_8" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_right = 900.0
+
+[node name="PuzzleTile_9" parent="Row_0" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_right = 1000.0
+
+[node name="Row_1" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_1" instance=ExtResource( 2 )]
+margin_top = 100.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_1" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 100.0
+margin_right = 200.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_2" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 100.0
+margin_right = 300.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_3" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 100.0
+margin_right = 400.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_4" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 100.0
+margin_right = 500.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_5" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 100.0
+margin_right = 600.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_6" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 100.0
+margin_right = 700.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_7" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 100.0
+margin_right = 800.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_8" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 100.0
+margin_right = 900.0
+margin_bottom = 200.0
+
+[node name="PuzzleTile_9" parent="Row_1" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 100.0
+margin_right = 1000.0
+margin_bottom = 200.0
+
+[node name="Row_2" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_2" instance=ExtResource( 2 )]
+margin_top = 200.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_1" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 200.0
+margin_right = 200.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_2" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 200.0
+margin_right = 300.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_3" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 200.0
+margin_right = 400.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_4" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 200.0
+margin_right = 500.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_5" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 200.0
+margin_right = 600.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_6" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 200.0
+margin_right = 700.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_7" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 200.0
+margin_right = 800.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_8" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 200.0
+margin_right = 900.0
+margin_bottom = 300.0
+
+[node name="PuzzleTile_9" parent="Row_2" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 200.0
+margin_right = 1000.0
+margin_bottom = 300.0
+
+[node name="Row_3" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_3" instance=ExtResource( 2 )]
+margin_top = 300.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_1" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 300.0
+margin_right = 200.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_2" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 300.0
+margin_right = 300.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_3" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 300.0
+margin_right = 400.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_4" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 300.0
+margin_right = 500.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_5" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 300.0
+margin_right = 600.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_6" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 300.0
+margin_right = 700.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_7" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 300.0
+margin_right = 800.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_8" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 300.0
+margin_right = 900.0
+margin_bottom = 400.0
+
+[node name="PuzzleTile_9" parent="Row_3" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 300.0
+margin_right = 1000.0
+margin_bottom = 400.0
+
+[node name="Row_4" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_4" instance=ExtResource( 2 )]
+margin_top = 400.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_1" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 400.0
+margin_right = 200.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_2" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 400.0
+margin_right = 300.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_3" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 400.0
+margin_right = 400.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_4" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 400.0
+margin_right = 500.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_5" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 400.0
+margin_right = 600.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_6" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 400.0
+margin_right = 700.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_7" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 400.0
+margin_right = 800.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_8" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 400.0
+margin_right = 900.0
+margin_bottom = 500.0
+
+[node name="PuzzleTile_9" parent="Row_4" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 400.0
+margin_right = 1000.0
+margin_bottom = 500.0
+
+[node name="Row_5" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_5" instance=ExtResource( 2 )]
+margin_top = 500.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_1" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 500.0
+margin_right = 200.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_2" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 500.0
+margin_right = 300.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_3" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 500.0
+margin_right = 400.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_4" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 500.0
+margin_right = 500.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_5" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 500.0
+margin_right = 600.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_6" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 500.0
+margin_right = 700.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_7" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 500.0
+margin_right = 800.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_8" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 500.0
+margin_right = 900.0
+margin_bottom = 600.0
+
+[node name="PuzzleTile_9" parent="Row_5" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 500.0
+margin_right = 1000.0
+margin_bottom = 600.0
+
+[node name="Row_6" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_6" instance=ExtResource( 2 )]
+margin_top = 600.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_1" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 600.0
+margin_right = 200.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_2" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 600.0
+margin_right = 300.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_3" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 600.0
+margin_right = 400.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_4" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 600.0
+margin_right = 500.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_5" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 600.0
+margin_right = 600.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_6" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 600.0
+margin_right = 700.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_7" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 600.0
+margin_right = 800.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_8" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 600.0
+margin_right = 900.0
+margin_bottom = 700.0
+
+[node name="PuzzleTile_9" parent="Row_6" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 600.0
+margin_right = 1000.0
+margin_bottom = 700.0
+
+[node name="Row_7" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_7" instance=ExtResource( 2 )]
+margin_top = 700.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_1" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 700.0
+margin_right = 200.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_2" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 700.0
+margin_right = 300.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_3" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 700.0
+margin_right = 400.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_4" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 700.0
+margin_right = 500.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_5" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 700.0
+margin_right = 600.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_6" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 700.0
+margin_right = 700.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_7" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 700.0
+margin_right = 800.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_8" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 700.0
+margin_right = 900.0
+margin_bottom = 800.0
+
+[node name="PuzzleTile_9" parent="Row_7" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 700.0
+margin_right = 1000.0
+margin_bottom = 800.0
+
+[node name="Row_8" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_8" instance=ExtResource( 2 )]
+margin_top = 800.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_1" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 800.0
+margin_right = 200.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_2" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 800.0
+margin_right = 300.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_3" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 800.0
+margin_right = 400.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_4" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 800.0
+margin_right = 500.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_5" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 800.0
+margin_right = 600.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_6" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 800.0
+margin_right = 700.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_7" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 800.0
+margin_right = 800.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_8" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 800.0
+margin_right = 900.0
+margin_bottom = 900.0
+
+[node name="PuzzleTile_9" parent="Row_8" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 800.0
+margin_right = 1000.0
+margin_bottom = 900.0
+
+[node name="Row_9" type="Node" parent="."]
+
+[node name="PuzzleTile_0" parent="Row_9" instance=ExtResource( 2 )]
+margin_top = 900.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_1" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 100.0
+margin_top = 900.0
+margin_right = 200.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_2" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 200.0
+margin_top = 900.0
+margin_right = 300.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_3" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 300.0
+margin_top = 900.0
+margin_right = 400.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_4" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 400.0
+margin_top = 900.0
+margin_right = 500.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_5" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 500.0
+margin_top = 900.0
+margin_right = 600.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_6" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 600.0
+margin_top = 900.0
+margin_right = 700.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_7" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 700.0
+margin_top = 900.0
+margin_right = 800.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_8" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 800.0
+margin_top = 900.0
+margin_right = 900.0
+margin_bottom = 1000.0
+
+[node name="PuzzleTile_9" parent="Row_9" instance=ExtResource( 2 )]
+margin_left = 900.0
+margin_top = 900.0
+margin_right = 1000.0
+margin_bottom = 1000.0
